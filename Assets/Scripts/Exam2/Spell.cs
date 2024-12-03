@@ -7,12 +7,12 @@ public class Spell : MonoBehaviour
 {
     private void Start()
     {
-        Debug.Log("Spell-Casting Simulation Started!! from base class ");
+        Debug.Log("Spell-Casting Simulation Started!! from base class from base class ");
         Cast();
     }
     public virtual void Cast()
     {
-        Debug.Log("Casting a generic spell!! ");
+        Debug.Log("Casting a generic spell!! from base class");
     }
     public void Cast(string target) { Debug.Log($"casting a spell on target: {target}"); }
     public void Cast(string target,int level) { Debug.Log($"casting a spell on target: {target}! with power level :{level}"); }
